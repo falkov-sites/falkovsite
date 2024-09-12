@@ -1,0 +1,882 @@
+{
+  "spoiler_language": {
+    "spoiler_title": "html css js php",
+    "spoiler_items": [
+      { "subtitle": "html" },
+      { "href": "https://hcdev.ru/html/", "text": "справочник HTML" },
+
+      { "subtitle": "pug" },
+      {
+        "href": "https://pugjs.org/api/getting-started.html",
+        "text": "pug",
+        "tooltip": "это тултип"
+      },
+      {
+        "href": "https://zaurmag.ru/html5-css3/html-preprotsessor-pug-jade.html",
+        "text": "pug на русском"
+      },
+      { "href": "https://html-to-pug.com", "text": "html-to-pug" },
+      { "href": "https://html2pug.com", "text": "html2pug" },
+
+      { "subtitle": "css" },
+      { "href": "https://hcdev.ru/css/", "text": "справочник CSS" },
+
+      { "subtitle": "sass" },
+      { "href": "https://sass-lang.su/documentation/", "text": "sass-lang.su" },
+
+      { "subtitle": "flex" },
+      { "href": "https://hcdev.ru/flex/", "text": "flex" },
+
+      { "subtitle": "grid" },
+      { "href": "https://hcdev.ru/grid/", "text": "grid" },
+      { "href": "https://grid.layoutit.com", "text": "grid generator" },
+
+      { "subtitle": "js" },
+      {
+        "href": "https://basicweb.ru/javascript/js_web_api.php",
+        "text": "справочник JS"
+      },
+      { "href": "https://learn.javascript.ru", "text": "учебник JS" },
+
+      { "subtitle": "jQuery" },
+      { "href": "https://jquery.com", "text": "jquery.com" },
+      { "href": "https://jquery-docs.ru/", "text": "jquery-docs.ru" },
+      {
+        "href": "https://basicweb.ru/",
+        "tooltip": "jQuery селекторы, события, методы, перемещения, утилиты, эффекты",
+        "text": "basicweb.ru"
+      },
+
+      { "subtitle": "php" },
+      { "href": "https://code.mu/ru/php/manual/", "text": "справочник PHP" },
+      {
+        "href": "https://www.php.net/manual/ru/langref.php",
+        "text": "справочник языка"
+      }
+    ]
+  },
+
+  "spoiler_help": {
+    "spoiler_title": "справка",
+    "spoiler_items": [
+      { "href": "https://w3techs.com", "text": "w3techs.com" },
+      { "href": "https://my-js.org", "text": "my-js.org" },
+      { "href": "https://htmlcheatsheet.com/js/", "text": "html css js jq" },
+      { "href": "https://easings.net/en#", "text": "easing functions" },
+      {
+        "href": "https://simon.html5.org/dump/html5-canvas-cheat-sheet.html",
+        "text": "canvas"
+      },
+      {
+        "href": "https://bootstrap-4.ru/articles/cheatsheet/",
+        "text": "bootstrap"
+      },
+      { "href": "https://devhints.io/react/", "text": "react" },
+      { "href": "https://gitsheet.wtf", "text": "git" },
+      {
+        "href": "https://introcs.cs.princeton.edu/java/11cheatsheet/",
+        "text": "java"
+      },
+      { "href": "https://cheatography.com", "text": "5000 Cheat Sheets" },
+      { "href": "https://overapi.com", "text": "overapi.com" },
+      {
+        "href": "https://publish.obsidian.md/help-ru/Начните+здесь",
+        "text": "obsidian ru"
+      },
+
+      { "subtitle": "js" },
+      {
+        "href": "https://atuin.ru/blog/parallaks-effekty-s-bibliotekoj-parallax-js/",
+        "text": "parallaxjs"
+      }
+    ]
+  },
+
+  "spoiler_libraries": {
+    "spoiler_title": "библиотеки",
+    "spoiler_items": [
+      { "subtitle": "css" },
+      { "href": "https://animate.style", "text": "animate" },
+
+      { "subtitle": "jq" },
+      { "href": "https://kenwheeler.github.io/slick/", "text": "slick" },
+      { "href": "https://masonry.desandro.com", "text": "masonry" },
+      {
+        "href": "https://youmightnotneedjquery.com",
+        "text": "youmightnotneedjquery"
+      },
+
+      { "subtitle": "js" },
+      { "href": "https://swiperjs.com", "text": "swiperjs" },
+      {
+        "href": "https://atuin.ru/blog/parallaks-effekty-s-bibliotekoj-parallax-js/",
+        "text": "parallaxjs"
+      },
+      { "href": "https://sweetalert2.github.io", "text": "sweetalert2" },
+      { "href": "https://nanogallery2.nanostudio.org", "text": "nanogallery2" },
+      { "href": "https://animxyz.com", "text": "animxyz.com" },
+      {
+        "href": "https://momentjs.com",
+        "tooltip": "для анализа, проверки, управления и форматирования дат и времени",
+        "text": "momentjs.com"
+      },
+      {
+        "href": "https://day.js.org/ru/",
+        "tooltip": "быстрая 2kB альтернатива moment.js с тем же современным api",
+        "text": "day.js"
+      },
+      {
+        "href": "https://driverjs.com",
+        "tooltip": "для создания тура по сайту",
+        "text": "driverjs.com"
+      }
+    ]
+  },
+
+  "spoiler_check": {
+    "spoiler_title": "check, stat",
+    "spoiler_items": [
+      {
+        "href": "https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect",
+        "text": "PageSpeed Insights"
+      },
+      { "href": "https://gtmetrix.com", "text": "gtmetrix.com" },
+      {
+        "href": "https://validator.w3.org/#validate_by_input",
+        "text": "W3C Validator"
+      },
+      { "href": "https://caniuse.com", "text": "Can I Use" },
+      { "href": "https://caninclude.glitch.me", "text": "Can I Include" },
+
+      { "subtitle": "статистика" },
+      { "href": "https://gs.statcounter.com", "text": "gs.statcounter.com" },
+      {
+        "href": "https://www.hotlog.ru/global/browser",
+        "tooltip": "Статистика использования браузеров, поисковых систем, каталогов и пр., тенденции пользовательских предпочтений на базе статистики ресурсов, использующих счетчик HotLog",
+        "text": "браузеры"
+      },
+      { "href": "https://jamstack.org", "text": "jamstack.org" }
+    ]
+  },
+
+  "spoiler_node": {
+    "spoiler_title": "node - npm - gulp",
+    "spoiler_items": [
+      { "href": "https://nodejs.org/en/", "text": "nodejs.org" },
+      {
+        "href": "https://nodejsdev.ru/guides/freecodecamp/",
+        "text": "nodejsdev.ru/guides"
+      },
+      { "href": "https://www.npmjs.com", "text": "npmjs.com" },
+      { "href": "https://gulpjs.com/plugins/", "text": "gulpjs.com/plugins" },
+      {
+        "href": "https://webdesign-master.ru/blog/docs/gulp-documentation.html",
+        "text": "gulp на русском"
+      }
+    ]
+  },
+
+  "spoiler_server": {
+    "spoiler_title": "server",
+    "spoiler_items": [
+      { "subtitle": ".htaccess" },
+      {
+        "href": "https://httpd.apache.org/docs/2.2/howto/htaccess.html",
+        "text": "docs"
+      },
+      {
+        "href": "https://habr.com/en/company/click/blog/462029/",
+        "text": "на русском"
+      }
+    ]
+  },
+
+  "spoiler_english": {
+    "spoiler_title": "english",
+    "spoiler_items": [
+      { "subtitle": "переводчики" },
+      { "href": "https://www.grammarly.com", "text": "grammarly.com" },
+      { "href": "https://www.deepl.com/translator", "text": "deepl.com" },
+      { "href": "https://translate.yandex.ru", "text": "translate.yandex.ru" },
+      {
+        "href": "https://context.reverso.net/translation/",
+        "text": "context.reverso.net"
+      },
+      { "href": "https://wordsfromtext.com/", "text": "wordsfromtext.com" },
+
+      { "subtitle": "проверка" },
+      { "href": "https://languagetool.org", "text": "languagetool.org" }
+    ]
+  },
+
+  "spoiler_analyze": {
+    "spoiler_title": "data analyze",
+    "spoiler_items": [
+      {
+        "href": "https://ibox.tools/semantic-analysis",
+        "text": "семант анализ текст"
+      }
+    ]
+  },
+
+  "spoiler_email": {
+    "spoiler_title": "temp email",
+    "spoiler_items": [
+      { "href": "https://temp-mail.org", "text": "temp-mail.org" },
+      { "href": "https://trashmail.com/?lang=en", "text": "trashmail.com" },
+      { "href": "https://www.crazymailing.com", "text": "crazymailing.com" }
+    ]
+  },
+
+  "spoiler_me": {
+    "spoiler_title": "me",
+    "spoiler_items": [
+      { "href": "https://codepen.io/your-work/", "text": "codepen.io" },
+      { "subtitle": "git" },
+      {
+        "href": "https://github.com/falkov-sites/",
+        "text": "falkov-sites/github.com"
+      },
+      { "href": "https://docs.github.com/ru", "text": "docs.github.com/ru" }
+    ]
+  },
+
+  "spoiler_background": {
+    "spoiler_title": "background",
+    "spoiler_items": [
+      {
+        "href": "https://www.toptal.com/designers/subtlepatterns/",
+        "text": "паттерн фон"
+      },
+      {
+        "href": "https://williamngan.github.io/kubist/",
+        "text": "полигональный фон"
+      },
+      {
+        "href": "https://app.haikei.app",
+        "tooltip": "генератор фонов svg, png - волны, градиенты, круги и др",
+        "text": "app.haikei.app"
+      },
+      {
+        "href": "https://www.svgbackgrounds.com/tools/svg-to-css/",
+        "text": "SVG to CSS background"
+      }
+    ]
+  },
+
+  "spoiler_gradient": {
+    "spoiler_title": "gradient",
+    "spoiler_items": [
+      { "subtitle": "генераторы" },
+      { "href": "https://uigradients.com", "text": "uigradients.com" },
+      { "href": "https://cssgradient.io", "text": "cssgradient.io" },
+      { "href": "https://active-vision.ru/icon/gradient/", "text": "gradient" }
+    ]
+  },
+
+  "spoiler_logo": {
+    "spoiler_title": "logo",
+    "spoiler_items": [
+      { "href": "https://seeklogo.com", "text": "brands, logo templ" },
+      { "href": "https://toplogos.ru", "text": "лого компаний" },
+      { "href": "https://turbologo.ru", "text": "конструктор лого" },
+      {
+        "href": "https://9elements.github.io/fancy-border-radius/",
+        "text": "fancy-border-radius"
+      },
+      {
+        "href": "https://svgporn.com",
+        "tooltip": "векторные логотипы",
+        "text": "svgporn.com"
+      }
+    ]
+  },
+
+  "spoiler_icons": {
+    "spoiler_title": "icons, iconfont",
+    "spoiler_items": [
+      { "href": "https://icones.js.org", "text": "icones.js.org" },
+      { "href": "https://icons8.com", "text": "icons8.com" },
+      { "href": "https://www.flaticon.com", "text": "flaticon.com" },
+      {
+        "href": "https://www.iconfinder.com/free_icons",
+        "text": "iconfinder.com"
+      },
+      { "href": "https://fontello.com", "text": "icon fonts generator" },
+      { "href": "https://unicode-table.com/ru/", "text": "символы Unicode" },
+
+      { "subtitle": "icon font" },
+      { "href": "https://icomoon.io", "text": "icomoon.io" },
+      {
+        "href": "https://iconly.io/tools/svg-convert-stroke-to-fill",
+        "text": "convert-stroke-to-fill"
+      }
+    ]
+  },
+
+  "spoiler_color": {
+    "spoiler_title": "color",
+    "spoiler_items": [
+      {
+        "href": "https://redpixelthemes.com/blog/tailwindcss-colors-different-formats/#color-Slate",
+        "text": "colors: hex, rgb, hsl"
+      },
+      {
+        "href": "https://colorscheme.ru/html-colors.html",
+        "text": "colorscheme.ru"
+      },
+      {
+        "href": "https://tutsplus.github.io/how-to-manipulate-colors-in-javascript-using-chroma.js/",
+        "text": "генер переход цвета"
+      },
+      {
+        "href": "https://www.materialpalette.com",
+        "text": "materialpalette.com"
+      },
+      {
+        "href": "https://lokeshdhakar.com/projects/color-thief/",
+        "text": "палитра из фото"
+      }
+    ]
+  },
+
+  "spoiler_photo": {
+    "spoiler_title": "photo",
+    "spoiler_items": [
+      { "subtitle": "поиск" },
+      { "href": "https://unsplash.com", "text": "unsplash.com" },
+      { "href": "https://pixabay.com", "text": "pixabay.com" },
+      { "href": "https://www.pinterest.com", "text": "pinterest.com" },
+      {
+        "href": "https://www.foodiesfeed.com",
+        "text": "foodiesfeed.com (еда)"
+      },
+
+      { "subtitle": "сжатие" },
+      { "href": "https://tin.webp.com", "text": "tinypng.com" },
+      { "href": "https://squoosh.app", "text": "squoosh.app" },
+      { "href": "https://imagecompressor.com", "text": "imagecompressor.com" },
+      {
+        "href": "https://shortpixel.com/online-image-compression",
+        "text": "shortpixel.com"
+      },
+
+      { "subtitle": "сервисы" },
+      { "href": "https://pfpmaker.com", "text": "фото профиля LinkedIn" },
+      { "href": "https://www.photofeeler.com/", "text": "оценка фото профиля" },
+      { "href": "https://www.remove.bg", "text": "remove.bg" },
+      {
+        "href": "https://labs.tineye.com/multicolr/#colors=73a1d2,f6da46;weights=50,50;",
+        "text": "фото по цвету"
+      },
+      {
+        "href": "https://thispersondoesnotexist.com",
+        "text": "persons doesn't exist"
+      },
+      {
+        "href": "https://picsum.photos",
+        "tooltip": "для вставки в код: href=https://picsum/photos/64",
+        "text": "picsum.photos"
+      },
+
+      { "subtitle": "placeholders" },
+      { "href": "https://loremflickr.com", "text": "image placeholder" }
+    ]
+  },
+
+  "spoiler_picture": {
+    "spoiler_title": "картинки, svg",
+    "spoiler_items": [
+      { "href": "https://www.openpeeps.com", "text": "openpeeps.com" },
+      { "href": "https://www.humaaans.com", "text": "humaaans.com" },
+      { "href": "https://undraw.co", "text": "undraw.co" },
+      { "href": "https://opendoodles.com", "text": "opendoodles.com" },
+      { "href": "https://illlustrations.co", "text": "illlustrations.co" },
+      {
+        "href": "https://icons8.com/illustrations",
+        "text": "icons8.com/illustrations"
+      },
+      { "href": "https://error404.fun", "text": "error404.fun" },
+      { "href": "https://iradesign.io", "text": "iradesign.io" },
+      { "href": "https://www.manypixels.co/gallery", "text": "manypixels.co" },
+      { "href": "https://interfacer.xyz", "text": "interfacer.xyz" },
+      {
+        "href": "https://lukaszadam.com/illustrations",
+        "text": "lukaszadam.com"
+      },
+      { "href": "https://outlane.co/topics/freebie/", "text": "outlane.co" },
+      {
+        "href": "https://www.vectorstock.com/free-vectors",
+        "text": "vectorstock.com"
+      },
+      { "href": "https://openclipart.org", "text": "openclipart.org" },
+      {
+        "href": "https://www.123freevectors.com",
+        "text": "123freevectors.com"
+      },
+      {
+        "href": "https://www.freevector.com/vector/computers",
+        "text": "freevector.com"
+      }
+    ]
+  },
+
+  "spoiler_service": {
+    "spoiler_title": "сервисы",
+    "spoiler_items": [
+      { "href": "https://openweathermap.org", "text": "openweathermap.org" },
+      {
+        "href": "https://creativecloud.adobe.com/quick-actions/pattern/make",
+        "text": "create pattern"
+      }
+    ]
+  },
+
+  "spoiler_reference": {
+    "spoiler_title": "референсы",
+    "spoiler_items": [
+      { "href": "https://dribbble.com", "text": "dribbble.com" },
+      {
+        "href": "https://www.behance.net/galleries/graphic-design",
+        "text": "behance.net"
+      }
+    ]
+  },
+
+  "spoiler_fonts": {
+    "spoiler_title": "fonts",
+    "spoiler_items": [
+      { "subtitle": "поиск" },
+      { "href": "https://fonts.google.com", "text": "fonts.google.com" },
+      { "href": "https://webfonts.pro", "text": "webfonts.pro" },
+      { "href": "https://www.fontsquirrel.com", "text": "fontsquirrel.com" },
+      { "href": "https://bestfonts.pro", "text": "bestfonts.pro" },
+      { "href": "https://nomail.com.ua", "text": "nomail.com.ua" },
+      { "href": "https://www.1001freefonts.com", "text": "1001freefonts.com" },
+
+      { "subtitle": "конвертеры" },
+      {
+        "href": "https://onlinefontconverter.com",
+        "text": "onlinefontconverter"
+      },
+      { "href": "https://transfonter.org", "text": "transfonter.org" }
+    ]
+  },
+
+  "spoiler_svg": {
+    "spoiler_title": "svg",
+    "spoiler_items": [
+      {
+        "href": "https://www.jenkov.com/tutorials/svg/index.html",
+        "text": "jenkov.com/tutorials/svg/"
+      },
+      {
+        "href": "https://jakearchibald.github.io/svgomg/",
+        "text": "оптимизация svg"
+      },
+      { "href": "https://svgsprit.es", "text": "спрайт генератор" }
+    ]
+  },
+
+  "spoiler_favicon": {
+    "spoiler_title": "favicon",
+    "spoiler_items": [
+      {
+        "href": "https://realfavicongenerator.net",
+        "text": "realfavicongenerator"
+      },
+      {
+        "href": "https://www.favicon-generator.org",
+        "text": "favicon-generator.org"
+      }
+    ]
+  },
+
+  "spoiler_text": {
+    "spoiler_title": "text",
+    "spoiler_items": [
+      {
+        "href": "https://textshadow.csscraftr.com",
+        "text": "textshadow generator"
+      },
+      { "href": "https://fish-text.ru", "text": "fish-text.ru" },
+      { "href": "https://ru.lipsum.com", "text": "ru.lipsum.com" },
+      { "href": "https://www.artlebedev.ru/typograf/", "text": "typograf" },
+      { "href": "https://glvrd.ru", "text": "главред" }
+    ]
+  },
+
+  "spoiler_animation": {
+    "spoiler_title": "animation",
+    "spoiler_items": [
+      {
+        "href": "https://svg-art.ru/?p=1783",
+        "tooltip": "Анимации с использованием stroke-dasharray и stroke-dashoffset",
+        "text": "stroke-dasharray"
+      },
+      {
+        "href": "https://textdrom.com/animation/animation-effects-text.html",
+        "text": "анимац надпись"
+      },
+      { "href": "https://animista.net", "text": "animista.net" },
+
+      { "subtitle": "cubic-bezier" },
+      {
+        "href": "https://cubic-bezier.com/#.17,.67,.83,.76",
+        "text": "cubic-bezier.com"
+      },
+      {
+        "href": "https://10015.io/tools/css-cubic-bezier-generator",
+        "text": "cubic-bezier-generator"
+      }
+    ]
+  },
+
+  "spoiler_toolboxes": {
+    "spoiler_title": "tool boxes",
+    "spoiler_items": [
+      { "subtitle": "transform" },
+      {
+        "href": "https://transform.tools",
+        "tooltip": "transform svg, html, json, css, js, ts, graphql etc. ",
+        "text": "transform.tools"
+      },
+
+      { "subtitle": "hover" },
+      {
+        "href": "https://codepen.io/BastianAndre/pen/eBBvVz",
+        "tooltip": "загнутый листочек",
+        "text": "Lifted Paper Strips"
+      },
+      {
+        "href": "https://tympanus.net/Development/HoverEffectIdeas/index2.html",
+        "text": "hover на фото"
+      },
+
+      { "subtitle": "clip-path" },
+      {
+        "href": "https://bennettfeely.com/clippy/",
+        "text": "CSS clip-path maker"
+      },
+      { "href": "https://atuin.ru/tools/clip-path/", "text": "atuin.ru" },
+
+      { "subtitle": "shadow" },
+      { "href": "https://shadows.brumm.af", "text": "shadows.brumm.af" },
+      {
+        "href": "https://active-vision.ru/icon/box-shadow/",
+        "text": "box-shadow"
+      },
+
+      { "subtitle": "-" },
+      { "href": "https://neumorphism.io", "text": "neumorphism" },
+      {
+        "href": "https://10015.io/tools/css-glassmorphism-generator",
+        "tooltip": "Tools for Text, Image, CSS, Coding, Color, Social Media, QR Code, Barcode...",
+        "text": "Tools In One Box"
+      },
+      {
+        "href": "https://www.cssportal.com",
+        "tooltip": "CSS Tools, CSS Generator, CSS Resources, HTML Resources",
+        "text": "cssportal.com"
+      },
+      {
+        "href": "https://cssarrowplease.com",
+        "tooltip": "генерация блока со стрелкой (тултипа) на чистом CSS",
+        "text": "cssarrowplease.com"
+      },
+      {
+        "href": "https://proto.io/freebies/onoff/",
+        "tooltip": "CSS-Генератор кастомизируемых переключателей",
+        "text": "proto.io/freebies/onoff/"
+      },
+      {
+        "href": "http://callmecavs.com/bricks.js/",
+        "tooltip": "Генератор masonry сеток",
+        "text": "bricks.js/"
+      }
+    ]
+  },
+
+  "spoiler_json": {
+    "spoiler_title": "json",
+    "spoiler_items": [
+      {
+        "href": "https://jsoneditoronline.org",
+        "text": "jsoneditoronline.org"
+      },
+      { "href": "https://json-generator.com", "text": "json-generator.com" },
+      {
+        "href": "https://jsonplaceholder.typicode.com",
+        "text": "jsonplaceholder"
+      }
+    ]
+  },
+
+  "spoiler_other": {
+    "spoiler_title": "разное",
+    "spoiler_items": [
+      {
+        "href": "https://www.gifntext.com",
+        "tooltip": "add text to gif",
+        "text": "gifntext.com"
+      },
+      {
+        "href": "https://www.shapedivider.app",
+        "tooltip": "Custom Shape Dividers",
+        "text": "shapedivider.app"
+      },
+      {
+        "href": "https://atuin.ru/blog/",
+        "tooltip": "ссылки, кнопки, вкладки, секции, формы и т.д.",
+        "text": "разные элементы"
+      },
+      {
+        "href": "https://marketplace.visualstudio.com/vscode",
+        "text": "VSC extension"
+      },
+      {
+        "href": "https://habr.com/ru/company/htmlacademy/blog/579514/",
+        "tooltip": "35 инструментов веб-разработчика на каждый день",
+        "text": "35 инструментов"
+      },
+      { "subtitle": "компьютерные комплектующие" },
+      {
+        "href": "https://technical.city/ru",
+        "tooltip": "Сравнения, спецификации и рейтинги видеокарт и процессоров",
+        "text": "technical.city - рейтинги"
+      }
+    ]
+  },
+
+  "spoiler_api": {
+    "spoiler_title": "api",
+    "spoiler_items": [
+      { "href": "https://apilist.fun", "text": "apilist.fun" },
+      {
+        "href": "https://mockapi.io/projects",
+        "tooltip": "u:falkov  e:falkov.sites@gmail.com  p:**",
+        "text": "mockapi.io"
+      },
+      { "href": "https://fakestoreapi.com", "text": "fakestoreapi.com" }
+    ]
+  },
+
+  "spoiler_wp": {
+    "spoiler_title": "wp",
+    "spoiler_items": [
+      { "subtitle": "&nbsp;" },
+      { "href": "https://wordpress.org", "text": "wordpress.org" },
+      { "href": "https://underscores.me", "text": "underscores.me" },
+      { "href": "https://www.mamp.info/en/mac/", "text": "mamp" },
+      { "subtitle": "&nbsp;" },
+      { "href": "https://wp-kama.ru", "text": "wp-kama.ru" },
+      {
+        "href": "https://developer.wordpress.org",
+        "text": "developer.wordpress.org"
+      },
+      { "href": "https://wpinsideblog.com", "text": "wpinsideblog.com" },
+      {
+        "href": "https://wpnull.org",
+        "tooltip": "falkov@mail.ru **",
+        "text": "wpnull.org"
+      },
+      { "subtitle": "&nbsp;" },
+      { "href": "https://themeforest.net", "text": "themeforest.net" },
+      { "subtitle": "&nbsp;gutenberg" },
+      { "href": "https://fullsiteediting.com", "text": "fullsiteediting.com" },
+      { "subtitle": "plugins" },
+      { "href": "https://www.advancedcustomfields.com", "text": "ACF" }
+    ]
+  },
+
+  "spoiler_vue": {
+    "spoiler_title": "vue",
+    "spoiler_items": [
+      { "href": "https://vuejs.org", "text": "vuejs.org" },
+      { "href": "https://v3.ru.vuejs.org", "text": "v3.ru.vuejs.org" },
+      { "href": "https://pinia.vuejs.org", "text": "pinia.vuejs.org" }
+    ]
+  },
+
+  "spoiler_nuxt": {
+    "spoiler_title": "nuxt",
+    "spoiler_items": [
+      { "href": "https://nuxt.com", "text": "nuxt.com" },
+      { "href": "https://vueuse.org", "text": "vueuse.org" },
+      { "href": "https://ui.nuxt.com", "text": "ui.nuxt.com" },
+      {
+        "href": "https://www.shadcn-vue.com/docs/installation/nuxt.html",
+        "text": "shadcn-vue"
+      }
+    ]
+  },
+
+  "spoiler_react": {
+    "spoiler_title": "react",
+    "spoiler_items": [
+      { "href": "https://react.dev/", "text": "react.dev" },
+      { "href": "https://ru.react.js.org", "text": "ru.react.js.org" },
+      { "href": "https://reactdev.ru", "text": "reactdev.ru" },
+      { "href": "https://reactrouter.com/en/main", "text": "reactrouter.com" },
+      {
+        "href": "https://redux-toolkit.js.org",
+        "text": "redux-toolkit.js.org"
+      },
+      {
+        "href": "https://runebook.dev/ru/docs/react/-index-",
+        "text": "runebook.dev/ru"
+      },
+      {
+        "href": "https://codesandbox.io/s/react-new?utm_source=dotnew",
+        "text": "codesandbox"
+      },
+      { "href": "https://skeletonreact.com", "text": "skeletonreact.com" },
+      { "subtitle": "components" },
+      {
+        "href": "https://react-icons.github.io/react-icons",
+        "text": "react-icons"
+      },
+      { "href": "https://react-hook-form.com", "text": "react-hook-form" },
+      {
+        "href": "https://www.npmjs.com/package/react-phone-number-input",
+        "text": "phone-number-input"
+      },
+      { "subtitle": "ui" },
+      { "href": "https://mui.com/material-ui/", "text": "material-ui" },
+      { "href": "https://chakra-ui.com", "text": "chakra-ui.com" }
+    ]
+  },
+
+  "spoiler_next": {
+    "spoiler_title": "next",
+    "spoiler_items": [
+      { "href": "https://nextjs.org", "text": "nextjs.org" },
+      { "href": "https://nextui.org", "text": "nextui.org" },
+
+      { "subtitle": "icons" },
+      {
+        "href": "https://react-icons.github.io/react-icons/",
+        "text": "react-icons"
+      },
+      { "href": "https://lucide.dev/icons/", "text": "lucide.dev/icons" },
+      { "href": "https://heroicons.com", "text": "heroicons.com" }
+    ]
+  },
+
+  "spoiler_tailwind": {
+    "spoiler_title": "tailwind",
+    "spoiler_items": [
+      {
+        "href": "https://tailwindcss.com/docs",
+        "text": "tailwindcss.com/docs"
+      },
+      {
+        "href": "https://play.tailwindcss.com",
+        "text": "play.tailwindcss.com"
+      },
+      { "href": "https://tailwindcss.ru", "text": "tailwindcss.ru" },
+      {
+        "href": "https://www.nerdcave.com/tailwind-cheat-sheet",
+        "text": "cheat sheet"
+      },
+      {
+        "href": "https://tailwindcomponents.com/cheatsheet/",
+        "text": "cheat sheet"
+      },
+      {
+        "href": "https://runebook.dev/ru/docs/tailwindcss/-index-#Core_Concepts",
+        "text": "core concepts"
+      },
+      {
+        "href": "https://tailwindcomponents.com",
+        "text": "tailwindcomponents"
+      },
+      { "subtitle": "generators" },
+      {
+        "href": "https://www.tailwindtoolbox.com/generators",
+        "text": "tailwindtoolbox.com",
+        "tooltip": "many generators"
+      },
+      {
+        "href": "https://tailwind-generator.com/generators",
+        "text": "tailwind-generator.com",
+        "tooltip": "many generators"
+      },
+      {
+        "href": "https://www.designtoolshub.com",
+        "text": "designtoolshub.com",
+        "tooltip": "many generators"
+      },
+      { "href": "https://www.tailwindgen.com", "text": "grid generator" },
+      { "href": "https://uicolors.app/create", "text": "color generator" },
+      {
+        "href": "https://tailwind-gradient-generator.vercel.app",
+        "text": "vercel bg gradient"
+      },
+      { "href": "https://www.tailwindgradient.com", "text": "bg gradient" },
+      {
+        "href": "https://www.creative-tim.com/twcomponents/gradient-generator",
+        "text": "text gradient"
+      },
+      {
+        "href": "https://hanneslund.github.io/elm-tailwind-button-maker/#",
+        "text": "button generator"
+      },
+      {
+        "href": "https://skeletongenerator.com",
+        "text": "skeletongenerator.com"
+      }
+    ]
+  },
+
+  "spoiler_shadcn": {
+    "spoiler_title": "shadcn",
+    "spoiler_items": [
+      { "href": "https://ui.shadcn.com/docs", "text": "shadcn.com/docs" },
+      { "href": "https://ui.shadcn.com/themes", "text": "shadcn.com/themes" },
+      {
+        "href": "https://github-com.translate.goog/birobirobiro/awesome-shadcn-ui?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=rq#",
+        "text": "awesome-shadcn-ui",
+        "tooltip": "подборка крутых вещей, связанных с shadcn/ui"
+      },
+
+      { "subtitle": "theme generators" },
+      { "href": "https://ui-colorgen.vercel.app", "text": "vercel" },
+      {
+        "href": "https://gradient.page/tools/shadcn-ui-theme-generator",
+        "text": "gradient.page/tools"
+      },
+      { "href": "https://themes.fkaya.dev", "text": "themes.fkaya.dev" },
+      {
+        "href": "https://zippystarter.com/tools/shadcn-ui-theme-generator",
+        "text": "zippystarter.com",
+        "tooltip": "light, dark"
+      }
+    ]
+  },
+
+  "spoiler_astro": {
+    "spoiler_title": "astro",
+    "spoiler_items": [
+      { "href": "https://astro.build", "text": "astro.build" },
+      { "href": "https://www.framer.com/motion/", "text": "framer-motion" }
+    ]
+  },
+
+  "spoiler_reserve_1": {
+    "spoiler_title": "* резерв 1 *",
+    "spoiler_items": [{ "href": "", "text": "---" }]
+  },
+  "spoiler_reserve_2": {
+    "spoiler_title": "* резерв 2 *",
+    "spoiler_items": [{ "href": "", "text": "---" }]
+  },
+  "spoiler_reserve_3": {
+    "spoiler_title": "* резерв 3 *",
+    "spoiler_items": [{ "href": "", "text": "---" }]
+  },
+  "spoiler_reserve_4": {
+    "spoiler_title": "* резерв 4 *",
+    "spoiler_items": [{ "href": "", "text": "---" }]
+  }
+}

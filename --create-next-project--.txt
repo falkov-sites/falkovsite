@@ -1,0 +1,105 @@
+✺ создать папку для проекта
+✺ открыть ее в VS Code
+✺ запустить в терминале VSC: 
+/Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/_create_next_project.sh
+-----------------------------------------------------------------------------------------
+🟡 "package.json":
+
+  1️⃣ добавить ключ  "--turbo -H 192.168.1.47" (192.168.1.47:3000 - запуск в этой сети WiFi):
+
+  "scripts": {
+    "dev": "next dev --turbo -H 192.168.1.47",
+    ...,
+  },
+
+  2️⃣ добавить ключ 'prettier'  после devDependencies:
+
+  "devDependencies": {
+    ...
+  },
+  "prettier": {
+      "printWidth": 120,
+      "arrowParens": "avoid",
+      "singleQuote": true,
+      "jsxSingleQuote": true,
+      "tabWidth": 2,
+      "trailingComma": "none",
+      "semi": false,
+      "proseWrap": "always",
+      "useTabs": false,
+      "bracketSameLine": true,
+      "plugins": [
+        "prettier-plugin-tailwindcss"
+      ]
+    }
+-----------------------------------------------------------------------------------------
+🟡 "globals.css"
+1️⃣ перенести файл "globals.css" из папки "src/app/" в папку "src/styles/"
+2️⃣ удалить папку "src/app/fonts/"
+3️⃣ изменить пути до 'globals.css' в файле 'components.json' ('layout.tsx' уже правильно)
+-----------------------------------------------------------------------------------------
+🟡 "postcss.config.js"
+вставить 'postcss-import' перед 'tailwind', чтобы можно разбивать '@layer' на файлы:
+
+plugins: {
+    'postcss-import': {},
+    tailwindcss: {},
+}
+-----------------------------------------------------------------------------------------
+FONTS: см. 'styles/_fonts.css'
+-----------------------------------------------------------------------------------------
+npm run dev
+
+=========================================================================================
+
+SVG:
+оптимизация - https://jakearchibald.github.io/svgomg/
+  ✺ выделить svg в файле
+  ✺ на сайте "Paste murkup", внизу справа средний значок "Копировать"
+  ✺ вставить обратно в файл
+
+-----------------------------------------------------------------------------------------
+ICONS:
+  https://lucide.dev/icons/
+  
+-----------------------------------------------------------------------------------------
+TAILWIND библиотеки:
+🌼 tailwindcss-animated:
+https://github.com/new-data-services/tailwindcss-animated#readme
+
+1️⃣  npm i tailwindcss-animated
+
+2️⃣  add plugin to "tailwind.config.js":
+      module.exports = {
+        // ...
+        plugins: [
+          require('tailwindcss-animated')
+        ],
+      }
+
+конфигуратор: https://www.tailwindcss-animated.com/configurator.html
+
+-----------------------------------------------------------------------------------------
+🌼 tailwindcss-3d:
+https://github.com/sambauers/tailwindcss-3d
+1️⃣  npm install -D tailwindcss-3d
+
+2️⃣  add plugin to "tailwind.config.js":
+      module.exports = {
+        // ...
+        plugins: [
+          // require('tailwindcss-3d')
+          require('tailwindcss-3d')({ legacy: true }), // support older browsers
+        ],
+      }
+
+
+-----------------------------------------------------------------------------------------
+копирование моих компонентов:
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/TailwindColors.tsx ./src/components
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/MyTailwindClasses.tsx ./src/components
+
+-----------------------------------------------------------------------------------------
+копирование моих стилей:
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/styles/_gradients.css ./src/styles
+

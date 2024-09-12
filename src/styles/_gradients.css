@@ -1,0 +1,118 @@
+@layer components {
+  /* --- blue gradient --- */
+  .__gradient-blue {
+    @apply bg-gradient-to-b from-blue-300 via-blue-100 to-blue-300;
+    @apply dark:from-blue-900/50 dark:via-blue-600/50 dark:to-blue-900/50;
+  }
+  .__gradient-blue-hover {
+    @apply hover:from-blue-400 hover:via-blue-100 hover:to-blue-400;
+    @apply dark:from-blue-900/70 dark:via-blue-600/70 dark:to-blue-900/70;
+  }
+  .__gradient-blue-withHover {
+    @apply __gradient-blue hover:__gradient-blue-hover;
+  }
+
+  /* --- green gradient --- */
+  .__gradient-green {
+    @apply bg-gradient-to-b from-green-300 via-green-100 to-green-300;
+    @apply dark:from-green-900/50 dark:via-green-600/50 dark:to-green-900/50;
+  }
+  .__gradient-green-hover {
+    @apply hover:from-green-400 hover:via-green-100 hover:to-green-400;
+    @apply dark:from-green-900/70 dark:via-green-600/70 dark:to-green-900/70;
+  }
+  .__gradient-green-withHover {
+    @apply __gradient-green hover:__gradient-green-hover;
+  }
+
+  /* --- orange gradient --- */
+  .__gradient-orange {
+    @apply bg-gradient-to-b from-orange-300 via-orange-100 to-orange-300;
+    @apply dark:from-orange-900/50 dark:via-orange-600/50 dark:to-orange-900/50;
+  }
+  .__gradient-orange-hover {
+    @apply hover:from-orange-400 hover:via-orange-100 hover:to-orange-400;
+    @apply dark:from-orange-900/70 dark:via-orange-600/70 dark:to-orange-900/70;
+  }
+  .__gradient-orange-withHover {
+    @apply __gradient-orange hover:__gradient-orange-hover;
+  }
+
+  /* --- pink gradient --- */
+  .__gradient-pink {
+    @apply bg-gradient-to-b from-pink-300 via-pink-100 to-pink-300;
+    @apply dark:from-pink-900/50 dark:via-pink-600/50 dark:to-pink-900/50;
+  }
+  .__gradient-pink-hover {
+    @apply hover:from-pink-400 hover:via-pink-100 hover:to-pink-400;
+    @apply dark:from-pink-900/70 dark:via-pink-600/70 dark:to-pink-900/70;
+  }
+  .__gradient-pink-withHover {
+    @apply __gradient-pink hover:__gradient-pink-hover;
+  }
+
+  /* --- purple gradient --- */
+  .__gradient-purple {
+    @apply bg-gradient-to-b from-purple-300 via-purple-100 to-purple-300;
+    @apply dark:from-purple-900/50 dark:via-purple-600/50 dark:to-purple-900/50;
+  }
+  .__gradient-purple-hover {
+    @apply hover:from-purple-400 hover:via-purple-100 hover:to-purple-400;
+    @apply dark:from-purple-900/70 dark:via-purple-600/70 dark:to-purple-900/70;
+  }
+  .__gradient-purple-withHover {
+    @apply __gradient-purple hover:__gradient-purple-hover;
+  }
+
+  /* --- red gradient --- */
+  .__gradient-red {
+    @apply bg-gradient-to-b from-red-300 via-red-100 to-red-300;
+    @apply dark:from-red-900/50 dark:via-red-600/50 dark:to-red-900/50;
+  }
+  .__gradient-red-hover {
+    @apply hover:from-red-400 hover:via-red-100 hover:to-red-400;
+    @apply dark:from-red-900/70 dark:via-red-600/70 dark:to-red-900/70;
+  }
+  .__gradient-red-withHover {
+    @apply __gradient-red hover:__gradient-red-hover;
+  }
+
+  /* --- sky gradient --- */
+  .__gradient-sky {
+    @apply bg-gradient-to-b from-sky-300 via-sky-100 to-sky-300;
+    @apply dark:from-sky-900/50 dark:via-sky-600/50 dark:to-sky-900/50;
+  }
+  .__gradient-sky-hover {
+    @apply hover:from-sky-400 hover:via-sky-100 hover:to-sky-400;
+    @apply dark:from-sky-900/70 dark:via-sky-600/70 dark:to-sky-900/70;
+  }
+  .__gradient-sky-withHover {
+    @apply __gradient-sky hover:__gradient-sky-hover;
+  }
+
+  /* --- violet gradient --- */
+  .__gradient-violet {
+    @apply bg-gradient-to-b from-violet-300 via-violet-100 to-violet-300;
+    @apply dark:from-violet-900/50 dark:via-violet-600/50 dark:to-violet-900/50;
+  }
+  .__gradient-violet-hover {
+    @apply hover:from-violet-400 hover:via-violet-100 hover:to-violet-400;
+    @apply dark:from-violet-900/70 dark:via-violet-600/70 dark:to-violet-900/70;
+  }
+  .__gradient-violet-withHover {
+    @apply __gradient-violet hover:__gradient-violet-hover;
+  }
+
+  /* --- yellow gradient --- */
+  .__gradient-yellow {
+    @apply bg-gradient-to-b from-yellow-300 via-yellow-100 to-yellow-300;
+    @apply dark:from-yellow-900/50 dark:via-yellow-600/50 dark:to-yellow-900/50;
+  }
+  .__gradient-yellow-hover {
+    @apply hover:from-yellow-400 hover:via-yellow-100 hover:to-yellow-400;
+    @apply dark:from-yellow-900/70 dark:via-yellow-600/70 dark:to-yellow-900/70;
+  }
+  .__gradient-yellow-withHover {
+    @apply __gradient-yellow hover:__gradient-yellow-hover;
+  }
+}

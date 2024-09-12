@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "RobotoCondensed";
+  src: url("../fonts/RobotoCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+             ===== Чтобы добавить новые шрифты на сайт: =====
+
+0. сформировать шрифты в "/Volumes/ssd_sata/_develop/_projects/__GULP_FOR_ASSETS"
+1. добавить файлы шрифтов в 'src/fonts/'
+2. отредактировать/добавить строки c директивой @font-face вверху этого файла
+3. подключить этот файл '_fonts.css' в 'global.css' самой первой строкой:
+
+      @import './_fonts.css';
+      @import './_mystyles.css';
+
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities; 
+
+4. вставить в "tailwind-my-preset.js" в блок extend:
+      extend: {
+        fontFamily: {
+          Roboto: ['Roboto'],
+          RobotoCondensed: ['RobotoCondensed'],
+        },
+
+5. теперь можно использовать эти шрифты: <div className='font-Roboto'>привет</div>
+*/
+
+/*
+font-weight:
+  100  thin
+  200  ultralite
+  300  light
+  400  regular, normal
+  500  medium
+  600  semibold
+  700  bold
+  800  heavy
+  900  black
+
+типы шрифтов:
+  serif      - шрифты с засечками (Times)
+  sans-serif - шрифты без засечек (Arial)
+  cursive    - курсивные шрифты
+  fantasy    - декоративные шрифты
+  monospace  - моноширинные шрифты
+*/
