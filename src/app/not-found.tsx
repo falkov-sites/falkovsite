@@ -8,7 +8,7 @@ export default function PageNotFound() {
   return (
     <div className='flex h-[80vh] items-center justify-center'>
       <div className='text-3xl [text-shadow:4px_4px_4px_rgb(150,150,150)]'>
-        🥲 page &nbsp;"{pathname}" &nbsp;not found 🥲
+        <h1>🥲 page &nbsp;"{pathname}" &nbsp;not found 🥲</h1>
       </div>
     </div>
   )

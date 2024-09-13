@@ -533,13 +533,23 @@
   },
 
   "spoiler_toolboxes": {
-    "spoiler_title": "tool boxes",
+    "spoiler_title": "tools",
     "spoiler_items": [
       { "subtitle": "transform" },
       {
         "href": "https://transform.tools",
-        "tooltip": "transform svg, html, json, css, js, ts, graphql etc. ",
+        "tooltip": "transform svg, html, json, css, js, ts, graphql etc.",
         "text": "transform.tools"
+      },
+      {
+        "href": "https://webcode.tools",
+        "tooltip": "generators: css, html, json, meta tags, open graph, twitter cards, robots.txt",
+        "text": "webcode.tools"
+      },
+      {
+        "href": "https://boxshadow.csscraftr.com",
+        "tooltip": "generators: boxshadow, textshadow",
+        "text": "boxshadow, textshadow"
       },
 
       { "subtitle": "hover" },

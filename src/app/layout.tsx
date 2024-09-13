@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 
 import { NavMenu } from '@/components/NavMenu'
 import { ThemeSwitcher } from '@/components/ThemeSwitcher'
+import { Logo } from '@/components/Logo'
 
 import '@/styles/globals.css'
 
@@ -28,8 +29,9 @@ export default function RootLayout({
       <html lang='en' suppressHydrationWarning>
         <body>
           <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
-            <div className='container mx-auto my-4 flex items-center justify-between *:px-4'>
-              <NavMenu />
+            <div className='container mx-auto my-4 flex items-center justify-between px-6'>
+              <Logo />
+              {/* <NavMenu /> */}
               <ThemeSwitcher />
             </div>
 

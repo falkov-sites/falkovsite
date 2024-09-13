@@ -15,13 +15,13 @@ export function NavMenu() {
   const pathname = usePathname()
 
   return (
-    <nav className='flex gap-4 *:rounded-lg *:border *:px-3 *:py-2'>
+    <nav className='flex gap-1 *:rounded-lg *:border *:px-3 *:py-2'>
       {navItems.map(item => (
         <Link
           href={item.href}
           key={item.title}
           className={
-            pathname === item.href ? 'border border-sky-500 bg-sky-200' : 'border-transparent hover:border-sky-300'
+            pathname === item.href ? 'border border-sky-500 __gradient-sky-withHover' : 'border-transparent hover:border-sky-300'
           }>
           {item.title}
         </Link>
