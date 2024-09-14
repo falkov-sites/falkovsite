@@ -6,12 +6,13 @@ import { ThemeSwitcher } from '@/components/ThemeSwitcher'
 import { Logo } from '@/components/Logo'
 
 import '@/styles/globals.css'
+import { LogoMotion } from '@/components/LogoMotion'
 
 // import { headers } from 'next/headers'
 
 export const metadata: Metadata = {
   title: 'webNotes',
-  description: 'my web notes',
+  description: 'my web notes'
   // icons: {
   //   icon: '../icons/mstile-144x144.png'
   // }
@@ -32,15 +33,15 @@ export default function RootLayout({
       <html lang='en' suppressHydrationWarning>
         <body>
           <ThemeProvider attribute='class' defaultTheme='system' enableSystem disableTransitionOnChange>
-            <div className='container mx-auto my-4 flex items-center justify-between px-6'>
-              <Logo />
+            <div className='container mx-auto my-4 flex max-w-[900px] items-center justify-between px-6'>
+              <LogoMotion />
               {/* <NavMenu /> */}
               <ThemeSwitcher />
             </div>
 
             {children}
 
-            <div className='my-8 flex justify-center text-primary/70'>{getGeo()}</div>
+            <div className='my-6 flex justify-center text-xs text-primary/70'>{getGeo()}</div>
           </ThemeProvider>
         </body>
       </html>

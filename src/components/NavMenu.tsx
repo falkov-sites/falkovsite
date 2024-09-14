@@ -16,12 +16,14 @@ export function NavMenu() {
 
   return (
     <nav className='flex gap-1 *:rounded-lg *:border *:px-3 *:py-2'>
-      {navItems.map(item => (
+      {navItems.map((item, index) => (
         <Link
           href={item.href}
-          key={item.title}
+          key={index}
           className={
-            pathname === item.href ? 'border border-sky-500 __gradient-sky-withHover' : 'border-transparent hover:border-sky-300'
+            pathname === item.href
+              ? '__gradient-sky-withHover border border-sky-500'
+              : 'border-transparent hover:border-sky-300'
           }>
           {item.title}
         </Link>

@@ -17,28 +17,55 @@ export default function Page() {
   return (
     <>
       <section className='m-4 flex flex-wrap items-center justify-center gap-2'>
-        <div className='flex gap-2 rounded-full border p-[4px]'>
+        <div className='flex gap-2 rounded-full border border-primary/20 p-2'>
           <FoldUnfoldButton className='__gradient-sky-withHover __shadow border border-gray-300' fold_unfold='unfold' />
           <FoldUnfoldButton className='__gradient-sky-withHover __shadow border border-gray-300' fold_unfold='fold' />
         </div>
 
-        <div className='flex gap-2 rounded-xl border p-[4px]'>
-          <RowLink title='yandex' href='https://yandex.ru' img={svgYandex.src} color='green' />
+        <div className='flex gap-2 rounded-full border border-primary/20 p-2'>
           <RowLink
+            className='[border-radius:100px_20px_20px_100px]'
+            title='yandex'
+            href='https://yandex.ru'
+            img={svgYandex.src}
+            color='green'
+          />
+          <RowLink
+            className='rounded'
             title='yandex.transl'
             href='https://translate.yandex.ru'
             img={svgYandex_translate.src}
             color='green'
           />
-          <RowLink title='google' href='https://www.google.com' img={svgGoogle.src} color='orange' alt='' />
-          <RowLink title='maps.google' href='https://www.google.ru/maps' img={svgGooglePin.src} color='orange' />
           <RowLink
+            className='rounded'
+            title='google'
+            href='https://www.google.com'
+            img={svgGoogle.src}
+            color='orange'
+            alt=''
+          />
+          <RowLink
+            className='rounded'
+            title='maps.google'
+            href='https://www.google.ru/maps'
+            img={svgGooglePin.src}
+            color='orange'
+          />
+          <RowLink
+            className='rounded'
             title='google.transl'
             href='https://translate.google.ru/?hl=en&tab=TT'
             img={svgGoogleTranslate.src}
             color='orange'
           />
-          <RowLink title='youtube' href='https://www.youtube.com' img={svgYoutube.src} color='orange' />
+          <RowLink
+            className='[border-radius:20px_100px_100px_20px]'
+            title='youtube'
+            href='https://www.youtube.com'
+            img={svgYoutube.src}
+            color='orange'
+          />
         </div>
       </section>
 
