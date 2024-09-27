@@ -27,7 +27,7 @@
       "semi": false,
       "proseWrap": "always",
       "useTabs": false,
-      "bracketSameLine": true,
+      "bracketSameLine": false,
       "plugins": [
         "prettier-plugin-tailwindcss"
       ]
@@ -37,6 +37,18 @@
 1️⃣ перенести файл "globals.css" из папки "src/app/" в папку "src/styles/"
 2️⃣ удалить папку "src/app/fonts/"
 3️⃣ изменить пути до 'globals.css' в файле 'components.json' ('layout.tsx' уже правильно)
+4️⃣ закомментировать в начале файла (чтобы работало переключение light/dark):
+    /* :root {
+      --background: #ffffff;
+      --foreground: #171717;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+      }
+    } */
 -----------------------------------------------------------------------------------------
 🟡 "postcss.config.js"
 вставить 'postcss-import' перед 'tailwind', чтобы можно разбивать '@layer' на файлы:
@@ -46,7 +58,34 @@ plugins: {
     tailwindcss: {},
 }
 -----------------------------------------------------------------------------------------
-FONTS: см. 'styles/_fonts.css'
+🟡 "tailwind.config.ts":
+вставить 2 строки ("presets" и "future") сразу после "const config: Config = {": (перед darkMode)
+     module.exports = {
+
+      presets: [require('./tailwind-my-preset.js')],
+      // future: { hoverOnlyWhenSupported: true },
+
+-----------------------------------------------------------------------------------------
+🟡 FONTS: см. 'styles/_fonts.css'
+-----------------------------------------------------------------------------------------
+🟡 GIT: 
+•	создать новый проект на компе
+•	зайти на github, создать новый репо (не ставить галку "Add a README file")
+•	скопировать:
+    echo "# proba" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/falkov-sites/proba.git
+    git push -u origin main
+•	папку проекта на компе открыть в VSCode 
+•	в терминале выполнить скопированные из github строки
+
+•	дальнейшая разработка:
+    git add .
+    git commit -m "my commit"
+    git push
 -----------------------------------------------------------------------------------------
 npm run dev
 
@@ -93,13 +132,29 @@ https://github.com/sambauers/tailwindcss-3d
         ],
       }
 
+-----------------------------------------------------------------------------------------
+🌼 upgrade to the latest Next.js version:
+npm install next@latest
 
 -----------------------------------------------------------------------------------------
-копирование моих компонентов:
+🌼 копирование моих компонентов в этот проект:
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/CardsWithFilter.tsx ./src/components
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/GeoWeather.tsx ./src/components
+
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/FramerMenu.tsx ./src/components
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/FramerRadioButtons.tsx ./src/components
+cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/FramerScrollProgress.tsx ./src/components
+
+
 cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/TailwindColors.tsx ./src/components
 cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/MyTailwindClasses.tsx ./src/components
 
 -----------------------------------------------------------------------------------------
-копирование моих стилей:
+🌼 копирование моих стилей в этот проект:
 cp /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/styles/_gradients.css ./src/styles
 
+-----------------------------------------------------------------------------------------
+✅ копировать компонент из этого проекта в папку "__FOR_NEXT_PROJECTS/components/" (сделать копию строки):
+cp ./src/components/_________.tsx /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/
+
+cp ./src/components/GeoWeather.tsx /Volumes/ssd_sata/_projects/__FOR_NEXT_PROJECTS/components/

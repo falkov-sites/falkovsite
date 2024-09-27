@@ -2,7 +2,7 @@ import { headers } from 'next/headers'
 
 export async function getUserIP() {
   const ip = (headers().get('x-forwarded-for') ?? '127.0.0.1').split(',')[0]
-  console.log(ip)
+  // console.log(ip)
   // return (headers().get('x-forwarded-for') ?? '127.0.0.1').split(',')[0]
   return ip
 }
@@ -14,13 +14,13 @@ export async function getUserHost() {
 export async function getUserGeo() {
   const ip = getUserIP()
   const geo_url = 'http://api.sypexgeo.net/json/' + ip
-  const sonPlaceHolder_url = 'https://jsonplaceholder.typicode.com/users'
+  const jsonPlaceHolder_url = 'https://jsonplaceholder.typicode.com/users'
 
   // const res = await fetch(geo_url)
-  const res = await fetch(sonPlaceHolder_url)
+  const res = await fetch(jsonPlaceHolder_url)
   const data = await res.json()
 
-  console.log('=== ' + data.stringify() + ' ===')
+  // console.log('=== ' + data.stringify() + ' ===')
 
   return data.country
 

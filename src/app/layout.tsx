@@ -7,6 +7,7 @@ import { Logo } from '@/components/Logo'
 
 import '@/styles/globals.css'
 import { LogoMotion } from '@/components/LogoMotion'
+import { GeoWeather } from '@/components/GeoWeather'
 
 // import { headers } from 'next/headers'
 
@@ -16,11 +17,6 @@ export const metadata: Metadata = {
   // icons: {
   //   icon: '../icons/mstile-144x144.png'
   // }
-}
-
-async function getGeo() {
-  const data = await (await fetch('http://api.sypexgeo.net/')).json()
-  return `${data.ip} • ${data.city.name_en} • ${data.country.name_en}`
 }
 
 export default function RootLayout({
@@ -41,7 +37,7 @@ export default function RootLayout({
 
             {children}
 
-            <div className='my-6 flex justify-center text-xs text-primary/70'>{getGeo()}</div>
+            <GeoWeather />
           </ThemeProvider>
         </body>
       </html>
