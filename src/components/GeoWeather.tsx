@@ -46,7 +46,7 @@ const GeoWeather = async (props: propsType) => {
           {Math.round(temperature)}°C&nbsp; • &nbsp;{description}&nbsp; • &nbsp;{humidity}%
         </span>
         <span>
-          {windSpeed}m/s&nbsp; • &nbsp;{windDirection}
+          {Math.round(windSpeed)}m/s&nbsp; • &nbsp;{windDirection}
         </span>
       </div>
     </>
