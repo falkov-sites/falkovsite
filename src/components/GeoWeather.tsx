@@ -38,7 +38,7 @@ const GeoWeather = async (props: propsType) => {
 
   return (
     <>
-      <div className={cn('my-6 flex flex-col items-center justify-center text-xs text-primary/70', props.className)}>
+      <div className={cn('my-5 flex flex-col items-center justify-center text-xs text-primary/70 ', props.className)}>
         <span>
           {ip}&nbsp; • &nbsp;{city}&nbsp; • &nbsp;{country}
         </span>

@@ -37,6 +37,15 @@ module.exports = {
           to: { height: '0' }
         },
 
+        snowflakes: {
+          '0%': { transform: 'translateX(0) translateY(0) rotate(0deg) ' },
+          '20%': { transform: 'translateX(10px) translateY(20vh) rotate(60deg)' },
+          '40%': { transform: 'translateX(40px) translateY(40vh) rotate(0deg)' },
+          '60%': { transform: 'translateX(10px) translateY(60vh) rotate(60deg)' },
+          '80%': { transform: 'translateX(40px) translateY(80vh) rotate(0deg)' },
+          '100%': { transform: 'translateX(10px) translateY(100vh) rotate(60deg)' }
+        },
+
         logo: {
           '0%': { transform: 'rotate-x(0deg)' },
           '10%': { transform: 'rotate(360deg)' },
@@ -48,6 +57,7 @@ module.exports = {
         slideDown: 'slideDown 0.2s linear',
         slideUp: 'slideUp 0.2s linear',
 
+        snowflakes: 'snowflakes 5s linear infinite',
         logo: 'logo 20s linear 20s infinite'
       }
     }

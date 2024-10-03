@@ -467,6 +467,11 @@
     "spoiler_title": "svg",
     "spoiler_items": [
       {
+        "href": "https://react-svgr.com/playground/?typescript=true",
+        "text": "react-svgr.com/playground",
+        "tooltip": "svg to jsx component"
+      },
+      {
         "href": "https://www.jenkov.com/tutorials/svg/index.html",
         "text": "jenkov.com/tutorials/svg/"
       },

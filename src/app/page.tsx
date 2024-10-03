@@ -12,10 +12,18 @@ import svgGoogleTranslate from '@/images/google-transl.svg'
 import svgYoutube from '@/images/youtube.svg'
 
 import spoilers from '@/data/spoilers.json'
+import { Particles } from '@/components/Particles'
+import MyIP from '@/components/MyIP'
 
 export default function Page() {
   return (
     <>
+      <Particles amount={50} />
+
+      <div className='flex items-center justify-center'>
+        <MyIP />
+      </div>
+
       <section className='m-4 flex flex-wrap items-center justify-center gap-2'>
         <div className='flex gap-2 rounded-full border border-primary/20 p-2'>
           <FoldUnfoldButton className='__gradient-sky-withHover __shadow border border-gray-300' fold_unfold='unfold' />
@@ -68,7 +76,6 @@ export default function Page() {
           />
         </div>
       </section>
-
       <section className='m-4 flex flex-wrap justify-center gap-2 *:flex *:flex-col *:gap-1'>
         <div>
           <CollapsibleSpoiler color='orange' spoiler={spoilers.spoiler_language} />

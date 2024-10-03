@@ -1,4 +1,6 @@
 import { headers } from 'next/headers'
+import { Result } from 'postcss'
+import { arrayBuffer } from 'stream/consumers'
 
 export async function getUserIP() {
   const ip = (headers().get('x-forwarded-for') ?? '127.0.0.1').split(',')[0]
@@ -58,4 +60,14 @@ export async function getStaticProps() {
   console.log('=== ' + data.stringify() + ' ===')
 
   return { props: { contacts: data } }
+}
+
+// функция принимает массив и возвращает случайный элемент этого массива
+export function getRandomFromArray<T>(array: T[]): T | undefined {
+  if (array.length === 0) {
+    return undefined // Возвращаем undefined, если массив пустой
+  }
+
+  const randomIndex = Math.floor(Math.random() * array.length)
+  return array[randomIndex]
 }
