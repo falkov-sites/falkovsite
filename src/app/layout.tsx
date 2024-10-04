@@ -1,13 +1,13 @@
 import { ThemeProvider } from '@/app/theme-provider'
 import type { Metadata } from 'next'
 
-import { NavMenu } from '@/components/NavMenu'
+// import { NavMenu } from '@/components/NavMenu'
 import { ThemeSwitcher } from '@/components/ThemeSwitcher'
-import { Logo } from '@/components/Logo'
+// import { Logo } from '@/components/Logo'
 
 import '@/styles/globals.css'
 import { LogoMotion } from '@/components/LogoMotion'
-import { GeoWeather } from '@/components/GeoWeather'
+// import { GeoWeather } from '@/components/GeoWeather'
 
 // import { headers } from 'next/headers'
 
@@ -37,7 +37,7 @@ export default function RootLayout({
 
             {children}
 
-            <GeoWeather />
+            {/* <GeoWeather /> */}
           </ThemeProvider>
         </body>
       </html>
