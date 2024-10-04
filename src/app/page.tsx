@@ -14,14 +14,18 @@ import svgYoutube from '@/images/youtube.svg'
 import spoilers from '@/data/spoilers.json'
 import { Particles } from '@/components/Particles'
 import MyIP from '@/components/MyIP'
+import WeatherInfo from '@/components/WeatherInfo'
 
 export default function Page() {
   return (
     <>
       <Particles amount={50} />
 
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center justify-center border border-red-400'>
         <MyIP />
+      </div>
+      <div className='flex items-center justify-center border border-blue-400'>
+        <WeatherInfo />
       </div>
 
       <section className='m-4 flex flex-wrap items-center justify-center gap-2'>
